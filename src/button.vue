@@ -1,6 +1,6 @@
 <template>
   <button
-    class="u-button"
+    class="un-button"
     :class="{ [`icon-${iconPosition}`]: true }"
     @click="$emit('click')"
   >
@@ -41,7 +41,7 @@ export default {
     transform: rotate(360deg);
   }
 }
-.u-button {
+.un-button {
   font-size: var(--font-size);
   height: var(--button-height);
   padding: 0 1em;
